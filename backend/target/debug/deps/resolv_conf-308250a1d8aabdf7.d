@@ -1,0 +1,10 @@
+/Users/ranokhassanova/rust learning/rusty/nft_pin/backend/target/debug/deps/libresolv_conf-308250a1d8aabdf7.rmeta: /Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/lib.rs /Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/config.rs /Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/grammar.rs /Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/ip.rs
+
+/Users/ranokhassanova/rust learning/rusty/nft_pin/backend/target/debug/deps/libresolv_conf-308250a1d8aabdf7.rlib: /Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/lib.rs /Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/config.rs /Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/grammar.rs /Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/ip.rs
+
+/Users/ranokhassanova/rust learning/rusty/nft_pin/backend/target/debug/deps/resolv_conf-308250a1d8aabdf7.d: /Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/lib.rs /Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/config.rs /Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/grammar.rs /Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/ip.rs
+
+/Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/lib.rs:
+/Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/config.rs:
+/Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/grammar.rs:
+/Users/ranokhassanova/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/resolv-conf-0.7.3/src/ip.rs:
