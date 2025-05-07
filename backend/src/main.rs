@@ -2,16 +2,21 @@ mod models;
 use axum::{
     routing::get,
     Router,
+    response::Json
 };
 use dotenv::dotenv;
 use std::env;
 use std::net::SocketAddr;
 use mongodb::{Client, options::ClientOptions};
 use std::error::Error;
+use serde_json::{json, Value};
 
 
-async fn root() -> &'static str {
-    "Hello, world!"
+async fn hello_world() {
+    Json(json!({
+        "message" : "Hello from backend rust",
+        "success" : true
+    }));
 }
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
@@ -31,9 +36,10 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let db = client.database("mydatabase");
     println!("Успешное подключение к базе данных!");
 
-    // build our application with a single route
-    let app = Router::new().route("/", get(|| async { "Hello, World! kfkfkf" }));
-
+    let api_routes = Router::new()
+        .route("/", get(|| async { "Hello, World! kfkfkf" }))
+        .route("/hello", get(hello_world));
+    let app = Router::new().nest("/api", api_routes);
     // run our app with hyper, listening globally on port 3000
     let listener = tokio::net::TcpListener::bind("0.0.0.0:3000").await.unwrap();
     axum::serve(listener, app).await.unwrap();
